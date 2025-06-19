@@ -1,0 +1,13 @@
+body {
+  padding: 6rem;
+  background-image: url("./nnnoise.svg"),
+    linear-gradient(
+      134deg,
+      rgba(3, 10, 24, 1) 20%,
+      rgb(17, 24, 37) 60%,
+      rgba(3, 19, 24, 1) 92%
+    );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
