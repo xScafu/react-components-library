@@ -1,0 +1,9 @@
+#card {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.componentShowcase p {
+  margin-bottom: 2rem;
+  font-weight: 300;
+}

@@ -1,0 +1,21 @@
+.glowCardDocs {
+  background-color: rgb(27, 33, 39);
+  padding: 3rem;
+  margin: 3rem 0 3rem 0;
+  border-radius: 1rem;
+}
+
+.glowCardDocs h1,
+code {
+  font-weight: 900;
+  margin: 2rem 0 2rem 0;
+}
+
+.glowCardDocs p {
+  font-weight: lighter;
+  margin: 2rem 0 2rem 0;
+}
+
+div {
+  max-width: 40rem;
+}
