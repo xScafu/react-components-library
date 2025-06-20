@@ -6,7 +6,7 @@
 
 body {
   padding: 3rem;
-  background-image: url("./public/nnnoise.svg"),
+  background-image: url("/nnnoise.svg"),
     linear-gradient(
       134deg,
       rgba(3, 10, 24, 1) 20%,
