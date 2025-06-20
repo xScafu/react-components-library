@@ -1,13 +1,8 @@
-import { GlowButton } from "my-component-library";
-import { GlowCard } from "my-component-library";
+import { GlowCard, GlowButton } from "xscafu-component-library";
 import "my-component-library/dist/glowButton.css";
 import "my-component-library/dist/glowCard.css";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { atomOneDark } from "react-syntax-highlighter/dist/cjs/styles/hljs";
-
 import { atomDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
-import { vscDarkPlus } from "react-syntax-highlighter/dist/cjs/styles/prism";
-import { atomOneDarkReasonable } from "react-syntax-highlighter/dist/cjs/styles/prism";
 
 function App() {
   const codeSnippet = `
