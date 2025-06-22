@@ -4,17 +4,22 @@
   margin: 0;
   color: white;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+}
+
+#root {
+  position: relative;
+  z-index: auto; /* Cambia da -100 a auto */
 }
 
 body {
+  position: relative;
   padding: 3rem;
   background-image: url("/nnnoise.svg");
   background-color: rgb(11, 15, 24);
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: auto; /* Cambia da -99 a auto */
 }
 
 .button {

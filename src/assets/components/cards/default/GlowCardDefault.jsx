@@ -14,10 +14,29 @@ export default function GlowCardDefault() {
         </p>
       </div>
       <div className="componentShowcaseBkg">
-        <GlowCard enableGlow={true} className="card"></GlowCard>
-        <div className="codeSnippetContainer">
-          <GlowCardDocs />
-        </div>
+        <GlowCard
+          enableGlow={true}
+          title={
+            <span style={{ color: "red" }}>
+              Custom <b>Title</b>
+            </span>
+          }
+          subtitle={<i>Subtitle with italics</i>}
+          paragraph={
+            <div>
+              <p>
+                Paragraph with <strong>custom</strong> content.
+              </p>
+              <ul>
+                <li>List item 1</li>
+                <li>List item 2</li>
+              </ul>
+            </div>
+          }
+        ></GlowCard>
+      </div>
+      <div className="codeSnippetContainer">
+        <GlowCardDocs />
       </div>
     </>
   );
