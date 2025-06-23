@@ -15,13 +15,17 @@ export default function GlowCardDefault() {
       </div>
       <div className="componentShowcaseBkg">
         <GlowCard
+          className="myCard"
+          titleClassName="myTitle"
+          subtitleClassName="mySubtitle"
+          paragraphClassName="myParagraph"
           enableGlow={true}
           title={
             <span style={{ color: "red" }}>
-              Custom <b>Title</b>
+              <b>This is a </b> basic <b>card</b>
             </span>
           }
-          subtitle={<i>Subtitle with italics</i>}
+          subtitle={<i>Hover me for glow effect</i>}
           paragraph={
             <div>
               <p>
