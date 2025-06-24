@@ -1,0 +1,68 @@
+.componentShowcase p {
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+.componentShowcaseBkg {
+  position: relative;
+  background-color: rgb(27, 33, 39);
+  padding: 3rem;
+  margin: 1rem 0;
+  border-radius: 1rem;
+}
+
+.accordion {
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  background-color: rgb(27, 33, 39);
+  box-shadow: 0 2px 8px #0001;
+  padding: 0.5rem 1rem;
+}
+
+.accordion-toggle {
+  background: none;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.1rem;
+  width: 100%;
+  padding: 0.5rem 0;
+}
+
+.arrow {
+  display: inline-block;
+  margin-right: 0.5rem;
+  transition: transform 0.3s;
+}
+
+.arrow.open {
+  transform: rotate(90deg);
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.accordion-close-btn {
+  display: block;
+  margin: 2rem auto 0 auto;
+  padding: 0.5rem 1.5rem;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.accordion-close-btn:hover,
+.accordion-close-btn:focus {
+  background: #444;
+  outline: none;
+}

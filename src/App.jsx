@@ -1,11 +1,11 @@
-import GlowCardDefault from "./assets/components/cards/default/GlowCardDefault";
 import { GlowButton } from "xscafu-component-library";
 import "xscafu-component-library/dist/glowButton.css";
+import CardPage from "./assets/pages/CardPage";
 
 function App() {
   return (
     <>
-      <GlowCardDefault />
+      <CardPage />
       <div className="button">
         <GlowButton>Clicca quì</GlowButton>
       </div>
