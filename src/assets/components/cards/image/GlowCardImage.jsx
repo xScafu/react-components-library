@@ -1,6 +1,6 @@
 import { GlowButton, GlowCard } from "xscafu-component-library";
 import "xscafu-component-library/dist/glowCard.css";
-import "./glowCard.css";
+import "./glowCardImage.css";
 
 export default function GlowCardImage() {
   return (
@@ -11,25 +11,18 @@ export default function GlowCardImage() {
         subtitleClassName="mySubtitle"
         paragraphClassName="myParagraph"
         enableGlow={true}
-        title={
-          <div>
-            <figure>
-              <img src="https://placehold.co/600x400" alt="" />
-            </figure>
-            <span style={{ color: "red" }}>
-              <b>This is a </b> <b>card</b> with an image
-            </span>
+        top={
+          <div className="glowCardTop">
+            <img src="https://picsum.photos/1200/800" alt="Sample" />
           </div>
         }
-        subtitle={<i>Hover me for glow effect</i>}
-        paragraph={
-          <div>
-            <p>
-              Paragraph with <strong>custom</strong> content.
-            </p>
-            <GlowButton>More</GlowButton>
+        middle={
+          <div className="glowCardMiddle">
+            <h1>Only premium images</h1>
+            <h3>Click down below for more informations</h3>
           </div>
         }
+        bottom={<GlowButton className="myButton">More</GlowButton>}
       ></GlowCard>
     </>
   );

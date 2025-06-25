@@ -1,0 +1,32 @@
+.myCard {
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.199);
+  width: 20rem;
+  transition: transform 0.1s ease-in-out;
+}
+
+.myCard:hover {
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.199);
+  transform: scale(1.01);
+}
+
+.glowCardTop {
+  margin: -3rem -3rem 1rem -3rem;
+  overflow: hidden;
+  height: 15rem;
+}
+
+.glowCardTop img {
+  width: 100%;
+  border-radius: 2rem;
+  object-fit: cover;
+  display: block;
+}
+
+.glowCardMiddle h1 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.myButton {
+  margin-bottom: 0;
+}

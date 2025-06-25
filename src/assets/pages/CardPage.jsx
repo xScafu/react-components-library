@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import GlowCardDefault from "../components/cards/default/GlowCardDefault";
+import ExampleCardImage from "../docs/exsamples/exampleCardImage";
 import { GlowCardDocs } from "../docs/GlowCardDocs";
 import "./cardPage.css";
 import GlowCardImage from "../components/cards/image/GlowCardImage";
@@ -66,14 +67,23 @@ export default function CardPage() {
           </div>
         </div>
         {/* End Accordion Section */}
-        <h2>Other Card variants example</h2>
-        <p>
-          You can achive different styles and effects by using the{" "}
-          <code>enableGlow</code> prop and customizing the CSS classes like in
-          Docs section.
-        </p>
-        <div className="componentShowcaseBkg">
-          <GlowCardImage />
+        <div className="examples">
+          <h2>Other Card variants example</h2>
+          <p>
+            You can achive different styles and effects by using the{" "}
+            <code>enableGlow</code> prop and customizing the CSS classes like in
+            Docs section.
+          </p>
+          <div className="componentShowcaseBkg">
+            <h2>Card with image</h2>
+            <hr />
+            <section>
+              <GlowCardImage />
+            </section>
+            <div>
+              <ExampleCardImage />
+            </div>
+          </div>
         </div>
       </div>
     </>
