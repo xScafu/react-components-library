@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import GlowCardDefault from "../components/cards/default/GlowCardDefault";
-import ExampleCardImage from "../docs/exsamples/exampleCardImage";
+import ExampleCardImage from "../docs/exsamples/ExampleCardImage";
 import { GlowCardDocs } from "../docs/GlowCardDocs";
 import "./cardPage.css";
 import GlowCardImage from "../components/cards/image/GlowCardImage";
