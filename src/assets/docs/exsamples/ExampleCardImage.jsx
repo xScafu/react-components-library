@@ -78,11 +78,9 @@ export default function ExampleCardImage() {
         aria-controls="glow-card-image-code"
       >
         <span
-          className={`arrow ${accordionOpen ? "open" : ""}`}
+          className={`i-chevron-right ${accordionOpen ? "open" : ""}`}
           aria-hidden="true"
-        >
-          ▶
-        </span>
+        ></span>
         <span className="accordion-title">Show Code</span>
       </button>
       <hr />

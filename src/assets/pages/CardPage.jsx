@@ -37,9 +37,10 @@ export default function CardPage() {
             aria-expanded={open}
             aria-controls="glow-card-docs"
           >
-            <span className={`arrow ${open ? "open" : ""}`} aria-hidden="true">
-              ▶
-            </span>
+            <span
+              className={`i-chevron-right ${open ? "open" : ""}`}
+              aria-hidden="true"
+            ></span>
             <span className="accordion-title">Show Card Docs</span>
           </button>
           <hr />

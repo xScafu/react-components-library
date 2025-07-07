@@ -2,8 +2,8 @@
 
 * {
   margin: 0;
-  color: white;
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
 #root {
@@ -12,6 +12,7 @@
 }
 
 body {
+  color: white;
   position: relative;
   padding: 3rem;
   background-image: url("/nnnoise.svg");
@@ -20,6 +21,10 @@ body {
   flex-direction: column;
   align-items: center;
   z-index: auto; /* Cambia da -99 a auto */
+}
+
+.layout {
+  display: flex;
 }
 
 .button {

@@ -1,0 +1,91 @@
+.sidebar {
+  position: sticky;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 250px;
+  overflow: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.i-home {
+  display: flex;
+  border: solid rgba(255, 255, 255, 0.5) 1px;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.i-cubes {
+  display: flex;
+  border: solid rgba(255, 255, 255, 0.5) 1px;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.l-icon {
+  margin-right: 10px;
+}
+
+.r-icon {
+  margin-left: auto;
+}
+
+.categoryContainer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.categoryContainer .menu-link-item {
+  border-left: solid white 1px;
+  padding: 0.5rem 1rem;
+  margin: 0 1.35rem;
+}
+
+.categoryContainer .menu-link-item:hover {
+  border-left: solid rgb(255, 118, 118) 1px; /* Colore più brillante al passaggio del mouse */
+}
+
+/* Le categorie/contenitori NON hanno il bordo */
+.categoryContainer .menu-category-item {
+  padding: 0.5rem 1rem;
+  margin: 0 1.35rem;
+  /* Nessun border-left qui! */
+}
+
+/* Stile per il testo delle categorie */
+.menuChildCategory {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.categoryContainer .menu-link-item a {
+  color: white;
+  display: block; /* Rende l'area cliccabile più grande */
+  transition: all 0.2s; /* Transizione fluida */
+  text-decoration: none; /* Rimuove la sottolineatura */
+}
+
+.categoryContainer .menu-link-item a:hover {
+  color: rgb(255, 118, 118); /* Colore più brillante */
+}

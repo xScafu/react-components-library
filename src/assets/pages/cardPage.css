@@ -20,6 +20,10 @@
   padding: 0.5rem 1rem;
 }
 
+.accordion-title {
+  color: #fff;
+}
+
 .accordion-toggle {
   background: none;
   border: none;
@@ -32,13 +36,11 @@
   padding: 0.5rem 0;
 }
 
-.arrow {
-  display: inline-block;
-  margin-right: 0.5rem;
+.i-chevron-right {
   transition: transform 0.3s;
 }
 
-.arrow.open {
+.i-chevron-right.open {
   transform: rotate(90deg);
 }
 
